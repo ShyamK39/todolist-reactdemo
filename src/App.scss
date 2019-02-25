@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Lobster+Two|Poppins|Special+Elite');
+
+$primary: #80ffff;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Special Elite', sans-serif;
+	line-height: 1.4;
+}
+
+a {
+	color: $primary;
+	text-decoration: none;
+}
+
+.container {
+	padding: 0 1rem;
+}
+
+.btn {
+	display: inline-block;
+	border: none;
+	background: #555;
+	color: #fff;
+	padding: 7px 20px;
+	cursor: pointer;
+	&:hover {
+		background: #666;
+	}
+}
