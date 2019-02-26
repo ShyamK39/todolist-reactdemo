@@ -1,0 +1,15 @@
+.form {
+	display: flex;
+
+	input {
+		&[type='text'] {
+			flex: 10;
+			padding: 5px;
+			font-family: 'Courgette', sans-serif !important;
+		}
+
+		&[type='submit'] {
+			flex: 2;
+		}
+	}
+}

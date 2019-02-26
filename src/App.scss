@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Lobster+Two|Poppins|Special+Elite');
 
 $primary: #80ffff;
+$secondary: #000080;
 
 * {
 	box-sizing: border-box;
@@ -13,11 +14,6 @@ body {
 	line-height: 1.4;
 }
 
-a {
-	color: $primary;
-	text-decoration: none;
-}
-
 .container {
 	padding: 0 1rem;
 }
@@ -25,11 +21,13 @@ a {
 .btn {
 	display: inline-block;
 	border: none;
-	background: #555;
+	background: $secondary;
 	color: #fff;
 	padding: 7px 20px;
 	cursor: pointer;
+	font-family: 'Special Elite', sans-serif !important;
 	&:hover {
-		background: #666;
+		background: $primary;
+		color: #fff;
 	}
 }
